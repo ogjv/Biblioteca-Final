@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.gui.BibliotecarioController">
+   <children>
+      <Button layoutX="90.0" layoutY="116.0" mnemonicParsing="false" onAction="#btnGravarLivro" text="Cadastrar Livro" />
+      <Button layoutX="96.0" layoutY="76.0" mnemonicParsing="false" onAction="#btnGravarAutor" text="Gravar Autor" />
+      <Label layoutX="105.0" layoutY="28.0" text="Bibliotecario" />
+      <Button layoutX="72.0" layoutY="160.0" mnemonicParsing="false" onAction="#btnExemplares" text="Manipular Exemplares" />
+   </children>
+</Pane>
